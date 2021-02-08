@@ -1,0 +1,134 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-color:#f4f3f3;
+  }
+  textarea.form-control {
+    height: auto;
+    border: 2px solid #ced4da;
+    border-radius: 1.25rem;
+}
+ .form-control {
+	
+	border: 2px solid #ced4da;
+    border-radius: 1.25rem;
+	
+}
+  p {
+    font-family: cursive;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    size: 12px;
+    font-size: 17px;
+}
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-family: 'Trebuchet MS',;
+    /* font-size: initial; */
+    font-family: -webkit-pictograph;
+    font-size: 17px;
+}
+  .form-group {
+    margin-bottom: 1rem;
+    margin-left: 500px;
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:#595D64;
+	border-bottom:#17a2b8 3px solid;
+	height:120px;
+	width:100%;
+	padding-top:30px;
+	text-align: center;
+	  
+
+}
+
+
+footer {
+	/* position: absolute;*/
+	 right: 0;
+	 bottom: 0;
+	 left: 0;
+	 padding: 1rem;
+	 background:#595D64;
+	 margin-top: 600px;
+	
+	 /*margin-top: -13px;*/
+	 text-align: center;
+	 
+ }
+ p {
+	 margin-top: 0;
+	 margin-bottom: 1rem;
+	 size: 12px;
+	 font-size: 15px;
+ }
+ 
+
+.main-header{
+			text-align:center;
+			background-color: #17a2b8 ;
+			height:100px;
+			width:100%;
+			margin:0px;
+		}
+#brandname{
+	float:left;
+	font-size:30px;
+	color: #fff;
+	margin: 10px;
+}
+textarea.form-control {
+  
+    height: auto;
+}
+
+
+header h2{
+	text-align:center;
+	color:#fff;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 50px;
+	margin-left: 230px;
+
+}
+.centrer {
+	text-align: center;
+	margin-top: 200px;
+  }
+
+.btn-info {
+	background-color: #17a2b8 ;
+	height:50px;
+	margin-left: 181px;
+	width:120px;
+	border-radius: 1.25rem;
+    font-family: "Snell Roundhand";
+    font-size: 30px;
+    line-height: 30px;
+    color: #5c5e11;
+    text-align: center;
+	/*margin-bottom: 8px;
+	/*margin-left: 200px;
+	margin-top: 152px;*/
+	
+    /*margin-left: 400px;*/
+} /* Blue */
+/*.btn-info:hover {background: #0b7dda;}
+*/
+
+.resultss{
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}

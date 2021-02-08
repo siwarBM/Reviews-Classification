@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<title>Review</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+		<img src="templates\hotel.png" alt="">
+		</div>
+		<h2>Classification of customer reviews</h2>
+		
+	</div>
+	</header>
+	<!--<p style="color:blue;font-size:20;text-align: center;"><b>Results for Comment</b></p>
+	--><div class="results">	
+   <!--- {% if prediction < 0.5%}
+	<h2 style="color:red;">Spam</h2>
+	{% elif prediction >= 0.5%}
+	<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	{% endif %}-->
+	{%if prediction == 1%}
+    <div class="centrer">
+	<p style="color:blue;">Thank you for your kind review..</p>
+	<p style="color:blue;">your satisfaction is our priority..</p>
+	<i class="far fa-smile-beam fa-7x"></i> 	
+	</div>
+	{%else%}
+	<div class="centrer">
+	<p style="color:red;">Thank you very much for your candid review of your recent stay at our hotel...</p>
+	<p style="color:red;"> Your feedback is extremely valuable to us, as we strive to improve with each and every stay...</p>
+	<p style="color:red;">We greatly appreciate your comments..</p>
+	<i class="far fa-frown fa-7x"></i>
+    </div>
+	{% endif %}
+
+	</div>
+	<footer>
+		<Box textAlign='center'>
+		<p  class="text-xs-center">© Copyright 2021. All rights reserved.</p>
+	</Box>
+	</footer>
+</body>
+</html>
